@@ -1,2 +1,2 @@
-# c-programing
+# HackerRank
 i am an engineering graduate at Medhavi Skills University.
