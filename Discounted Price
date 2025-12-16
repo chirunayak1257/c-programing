@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    float x,y;
+    scanf("%f %f",&x,&y);
+    float discountedamount=((x*y)/100);
+    float discountedPrice=(x-discountedamount);
+    printf("The final price is: %f",discountedPrice);
+
+    return 0;
+}
