@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+// Function to sum the last digits of two integers
+int sumLastDigits(int a, int b) {
+    int lastDigitA = a % 10;
+    int lastDigitB = b % 10;
+    return lastDigitA + lastDigitB;
+}
+
+int main() {
+    int a, b;
+
+    // Read two integers
+    scanf("%d %d", &a, &b);
+
+    // Call sumLastDigits and print the result
+    int result = sumLastDigits(a, b);
+    printf("The sum of last digits is: %d\n", result);
+
+    return 0;
+}
