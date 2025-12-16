@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    char char1, char2;
+    
+    // Read two characters separated by space
+    scanf("%c %c", &char1, &char2);
+    
+    // Calculate distance using ASCII values
+    int distance = char2 - char1;
+    
+    // Print the output in the required format
+    printf("The distance between %c and %c is %d\n", char1, char2, distance);
+    
+    return 0;
+}
