@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+// Function to convert hours, minutes, and seconds to total seconds
+int toSeconds(int hours, int minutes, int seconds) {
+    return hours * 3600 + minutes * 60 + seconds;
+}
+
+int main() {
+    int hours, minutes, seconds;
+
+    // Read input values
+    scanf("%d %d %d", &hours, &minutes, &seconds);
+
+    // Call the conversion function and store the result
+    int totalSeconds = toSeconds(hours, minutes, seconds);
+
+    // Print the result in the required format
+    printf("Total seconds: %d\n", totalSeconds);
+
+    return 0;
+}
